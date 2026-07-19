@@ -12,8 +12,8 @@ function Projects() {
             description: "Responsive bakery website with Add to Cart functionality.",
             tech: "HTML, CSS, JavaScript",
             image: bakery,
-            github: "https://github.com/yourusername/sweet-treats-bakery",
-            live: "https://your-netlify-link.netlify.app"
+            github: "https://github.com/anjaliideshmukh/sweet-treats-bakery",
+            live: "https://anjali-sweet-treats-bakery.netlify.app/"
         },
         {
             id: 2,
@@ -21,15 +21,7 @@ function Projects() {
             description: "Responsive calculator with keyboard support.",
             tech: "HTML, CSS, JavaScript",
             image: calculator,
-            github: "https://github.com/yourusername/calculator",
-            live: "#"
-        },
-        {
-            id: 3,
-            title: "Student Registration Form",
-            description: "Student registration form with JavaScript validation.",
-            tech: "HTML, CSS, JavaScript",
-            github: "https://github.com/yourusername/student-registration-form",
+            github: "https://github.com/anjaliideshmukh/Basic-calculator",
             live: "#"
         }
     ];
