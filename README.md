@@ -4,7 +4,7 @@ A modern, responsive personal portfolio website built with **React** to showcase
 
 ## 🚀 Live Demo
 
-🔗 Coming Soon
+🔗 https://react-portfolio-three-brown.vercel.app/
 
 ---
 
