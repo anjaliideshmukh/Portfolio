@@ -1,0 +1,256 @@
+.projects {
+    margin-left: 240px;
+    padding: 90px 70px;
+}
+
+/* ===========================
+   Section Heading
+=========================== */
+
+.projects-title {
+    color: #38bdf8;
+    font-size: 18px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+
+.projects h2 {
+    color: #ffffff;
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.projects-subtitle {
+    max-width: 650px;
+    color: #94a3b8;
+    line-height: 1.8;
+    margin-bottom: 60px;
+}
+
+/* ===========================
+   Project Grid
+=========================== */
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 35px;
+}
+
+/* ===========================
+   Project Card
+=========================== */
+
+.project-card {
+    background: #1e293b;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+    transition: all 0.35s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    border-color: #38bdf8;
+    box-shadow: 0 25px 45px rgba(56, 189, 248, 0.18);
+}
+
+/* ===========================
+   Project Image
+=========================== */
+
+.project-image {
+    height: 220px;
+    background: #111827;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.project-card:hover .project-image img {
+    transform: scale(1.05);
+}
+
+.coming-soon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #94a3b8;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* ===========================
+   Content
+=========================== */
+
+.project-content h3 {
+    color: #ffffff;
+    font-size: 24px;
+    padding: 25px 25px 10px;
+}
+
+.description {
+    color: #cbd5e1;
+    line-height: 1.8;
+    min-height: 90px;
+    padding: 0 25px 25px;
+}
+
+/* ===========================
+   Tech Stack
+=========================== */
+
+.tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0 25px 25px;
+}
+
+.tech span {
+    background: #243244;
+    color: #38bdf8;
+    padding: 8px 16px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.tech span:hover {
+    background: #38bdf8;
+    color: #ffffff;
+}
+
+/* ===========================
+   Buttons
+=========================== */
+
+.project-buttons {
+    display: flex;
+    gap: 15px;
+    padding: 0 25px 30px;
+}
+
+.btn {
+    flex: 1;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+/* GitHub Button */
+
+.github-btn {
+    border: 2px solid #38bdf8;
+    color: white;
+}
+
+.github-btn:hover {
+    background: #0ea5e9;
+    color: #ffffff;
+}
+
+/* Live Demo Button */
+
+.demo-btn {
+    border: 2px solid #38bdf8;
+    color: #38bdf8;
+}
+
+.demo-btn:hover {
+    background: #38bdf8;
+    color: #ffffff;
+}
+/* ===========================
+   Responsive Design
+=========================== */
+
+@media (max-width:768px){
+
+    .projects{
+
+        margin-left:0;
+        padding:80px 25px;
+        text-align:center;
+
+    }
+
+    .projects-title{
+
+        font-size:16px;
+        letter-spacing:2px;
+
+    }
+
+    .projects h2{
+
+        font-size:34px;
+
+    }
+
+    .projects-subtitle{
+
+        max-width:100%;
+        font-size:16px;
+        margin:0 auto 40px;
+        line-height:1.7;
+
+    }
+
+    .projects-container{
+
+        grid-template-columns:1fr;
+        gap:25px;
+
+    }
+
+    .project-content h3{
+
+        font-size:22px;
+
+    }
+
+    .description{
+
+        min-height:auto;
+        font-size:16px;
+
+    }
+
+    .tech{
+
+        justify-content:center;
+
+    }
+
+    .project-buttons{
+
+        flex-direction:column;
+
+    }
+
+    .btn{
+
+        width:100%;
+        justify-content:center;
+
+    }
+
+}

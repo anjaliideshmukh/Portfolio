@@ -1,0 +1,166 @@
+/* ===========================
+   Sidebar
+=========================== */
+
+.sidebar {
+    width: 240px;
+    height: 100vh;
+    background: #111827;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 1px solid rgba(255,255,255,.08);
+    transition: left .35s ease;
+    z-index: 999;
+}
+
+/* ===========================
+   Profile
+=========================== */
+
+.profile{
+    text-align:center;
+}
+
+.profile h2{
+    color:white;
+    font-size:30px;
+    margin-bottom:15px;
+}
+
+.role{
+    color:#38bdf8;
+    font-size:20px;
+    margin-bottom:10px;
+}
+
+.learning{
+    color:#94a3b8;
+    font-size:16px;
+}
+
+/* ===========================
+   Divider
+=========================== */
+
+.sidebar hr{
+    border:none;
+    border-top:1px solid rgba(255,255,255,.08);
+    margin:25px 0;
+}
+
+/* ===========================
+   Menu
+=========================== */
+
+.menu ul{
+    list-style:none;
+}
+
+.menu li{
+    margin:22px 0;
+}
+
+.menu a{
+    color:white;
+    text-decoration:none;
+    font-size:20px;
+    font-weight:500;
+    display:block;
+    transition:all .3s ease;
+}
+
+.menu a:hover{
+    color:#38bdf8;
+    transform:translateX(8px);
+}
+
+/* ===========================
+   Social
+=========================== */
+
+.social{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.social a{
+    color:#cbd5e1;
+    text-decoration:none;
+    font-size:18px;
+    transition:all .3s ease;
+}
+
+.social a:hover{
+    color:#38bdf8;
+    transform:translateX(6px);
+}
+
+/* ===========================
+   Mobile Header
+=========================== */
+
+.mobile-header{
+    display:none;
+}
+
+/* ===========================
+   Responsive
+=========================== */
+
+@media (max-width:768px){
+
+    .mobile-header{
+
+        position:fixed;
+        top:0;
+        left:0;
+        right:0;
+
+        height:70px;
+
+        background:#111827;
+
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+
+        padding:0 20px;
+
+        z-index:1000;
+
+        border-bottom:1px solid rgba(255,255,255,.08);
+    }
+
+    .mobile-header h2{
+        color:white;
+        font-size:22px;
+    }
+
+    .menu-btn{
+
+        background:none;
+        border:none;
+        color:white;
+        font-size:28px;
+        cursor:pointer;
+    }
+
+    .sidebar{
+
+        left:-300px;
+        width:240px;
+        height:100vh;
+    }
+
+    .sidebar.active{
+
+        left:0;
+    }
+
+}

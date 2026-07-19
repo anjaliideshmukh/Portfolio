@@ -1,0 +1,199 @@
+.about{
+
+    margin-left:240px;
+
+    padding:80px 60px;
+
+}
+
+.about-title{
+
+    color:#38bdf8;
+
+    font-size:18px;
+
+    letter-spacing:3px;
+
+    text-transform:uppercase;
+
+    margin-bottom:15px;
+
+}
+
+.about-heading{
+
+    color:white;
+
+    font-size:42px;
+
+    margin-bottom:20px;
+
+}
+
+.about-description{
+
+    max-width:700px;
+
+    color:#cbd5e1;
+
+    font-size:18px;
+
+    line-height:1.8;
+
+    margin-bottom:50px;
+
+}
+
+.about-cards{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+    gap:25px;
+
+}
+
+.card{
+
+    background:#1e293b;
+
+    min-height:220px;
+
+    padding:30px;
+
+    border-radius:16px;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:12px;
+
+    transition:.35s ease;
+
+    cursor:pointer;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+
+}
+
+.card:hover{
+
+    transform:translateY(-10px);
+
+    background:#243244;
+
+    border-color:#38bdf8;
+
+    box-shadow:0 15px 35px rgba(56,189,248,.25);
+
+}
+
+.card-icon{
+
+    font-size:34px;
+
+    color:#38bdf8;
+
+    margin-bottom:10px;
+
+    transition:.3s;
+
+}
+
+.card:hover .card-icon{
+
+    transform:scale(1.15);
+
+    color:white;
+
+}
+
+.card h3{
+
+    color:white;
+
+    font-size:24px;
+
+}
+
+.card p{
+
+    color:#cbd5e1;
+
+    line-height:1.7;
+
+}
+
+.card:hover p{
+
+    color:white;
+
+}
+
+/* ===========================
+   Responsive Design
+=========================== */
+
+@media (max-width:768px){
+
+    .about{
+
+        margin-left:0;
+        padding:80px 25px;
+        text-align:center;
+
+    }
+
+    .about-title{
+
+        font-size:16px;
+        letter-spacing:2px;
+
+    }
+
+    .about-heading{
+
+        font-size:34px;
+
+    }
+
+    .about-description{
+
+        font-size:16px;
+        max-width:100%;
+        margin:0 auto 40px;
+        line-height:1.7;
+
+    }
+
+    .about-cards{
+
+        grid-template-columns:1fr;
+        gap:20px;
+
+    }
+
+    .card{
+
+        min-height:auto;
+        padding:25px;
+
+    }
+
+    .card-icon{
+
+        font-size:30px;
+
+    }
+
+    .card h3{
+
+        font-size:22px;
+
+    }
+
+}
