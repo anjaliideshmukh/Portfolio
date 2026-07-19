@@ -6,10 +6,6 @@ A modern, responsive personal portfolio website built with **React** to showcase
 
 🔗 Coming Soon
 
-## 📸 Preview
-
-(Add screenshots of your portfolio here)
-
 ---
 
 ## ✨ Features
@@ -71,13 +67,13 @@ The portfolio is fully responsive and optimized for:
 Clone the repository
 
 ```bash
-git clone https://github.com/your-username/portfolio.git
+git clone https://github.com/anjaliideshmukh/Portfolio.git
 ```
 
 Navigate into the project
 
 ```bash
-cd portfolio
+cd Portfolio
 ```
 
 Install dependencies
