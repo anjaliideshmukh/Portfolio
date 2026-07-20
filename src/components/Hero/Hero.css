@@ -209,10 +209,10 @@
         margin-left:0;
         min-height:100vh;
 
-        padding:100px 25px 60px;
+        padding:70px 25px 50px;
         flex-direction: column;
         justify-content:center;
-
+        gap:30px;
         text-align:center;
     }
 
@@ -234,7 +234,7 @@
 
     .hero h1{
 
-        font-size:48px;
+        font-size:3rem;
         line-height:1.1;
     }
 
@@ -264,7 +264,7 @@
     .secondary{
 
         width:100%;
-        max-width:300px;
+        max-width:260px;
 
         justify-content:center;
     }
@@ -276,15 +276,13 @@
     .hero-stats{
         max-width: 220px;
         margin: 30px auto;
-        justify-items: center;
+        justify-content: center;
     }
     .stat{
         width: 100%;
     }
-    .hero-right{
-        order: -1;
-        width: 170px;
-        height: 170px;
-        border-radius: 50%;
-    }
+    .profile-image{
+    width:170px;
+    height:170px;
+}
 }
