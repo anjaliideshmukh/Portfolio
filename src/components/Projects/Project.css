@@ -1,6 +1,6 @@
 .projects {
     margin-left: 240px;
-    padding: 90px 70px;
+    padding: 100px 80px;
 }
 
 /* ===========================
@@ -18,14 +18,15 @@
 .projects h2 {
     color: #ffffff;
     font-size: 42px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .projects-subtitle {
-    max-width: 650px;
+    max-width: 700px;
     color: #94a3b8;
     line-height: 1.8;
     margin-bottom: 60px;
+    font-size: 18px;
 }
 
 /* ===========================
@@ -35,7 +36,7 @@
 .projects-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 35px;
+    gap: 40px;
 }
 
 /* ===========================
@@ -45,7 +46,7 @@
 .project-card {
     background: #1e293b;
     border: 1px solid rgba(255, 255, 255, 0.08);
-    border-radius: 18px;
+    border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
     transition: all 0.35s ease;
@@ -62,7 +63,7 @@
 =========================== */
 
 .project-image {
-    height: 220px;
+    height: 240px;
     background: #111827;
     display: flex;
     justify-content: center;
@@ -98,14 +99,14 @@
 .project-content h3 {
     color: #ffffff;
     font-size: 24px;
-    padding: 25px 25px 10px;
+    padding: 28px 28px 12px;
 }
 
 .description {
     color: #cbd5e1;
     line-height: 1.8;
-    min-height: 90px;
-    padding: 0 25px 25px;
+    min-height: 80px;
+    padding: 0 28px 24px;
 }
 
 /* ===========================
@@ -116,13 +117,13 @@
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    padding: 0 25px 25px;
+    padding: 0 28px 28px;
 }
 
 .tech span {
     background: #243244;
     color: #38bdf8;
-    padding: 8px 16px;
+    padding: 8px 18px;
     border-radius: 30px;
     font-size: 14px;
     font-weight: 600;
@@ -149,7 +150,7 @@
     display: inline-block;
     text-align: center;
     text-decoration: none;
-    padding: 12px;
+    padding: 14px;
     border-radius: 10px;
     font-weight: 600;
     transition: all 0.3s ease;
@@ -187,7 +188,7 @@
     .projects{
 
         margin-left:0;
-        padding:80px 25px;
+        padding:70px 20px;
         text-align:center;
 
     }
@@ -201,7 +202,7 @@
 
     .projects h2{
 
-        font-size:34px;
+        font-size:32px;
 
     }
 

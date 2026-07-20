@@ -7,10 +7,10 @@ function Projects() {
 
     const projects = [
         {
-            id: 1,
+            id: 3,
             title: "Sweet Treats Bakery",
             description: "Responsive bakery website with Add to Cart functionality.",
-            tech: "HTML, CSS, JavaScript",
+            tech: ["HTML", "CSS", "JavaScript"],
             image: bakery,
             github: "https://github.com/anjaliideshmukh/sweet-treats-bakery",
             live: "https://anjali-sweet-treats-bakery.netlify.app/"
@@ -19,16 +19,16 @@ function Projects() {
             id: 2,
             title: "Calculator",
             description: "Responsive calculator with keyboard support.",
-            tech: "HTML, CSS, JavaScript",
+            tech: ["HTML", "CSS", "JavaScript"],
             image: calculator,
             github: "https://github.com/anjaliideshmukh/Basic-calculator",
-            live: "#"
+            
         },
         {
-            id: 3,
+            id: 1,
             title: "Portfolio",
-            description: "Responsive calculator with keyboard support.",
-            tech: "React, Vite, Vercel",
+            description: "Personal portfolio website showcasing my projects, skills, and experience with a responsive modern UI.",
+            tech: ["React", "Vite", "Vercel"],
             image: portfolio,
             github: "https://github.com/anjaliideshmukh/Portfolio",
             live: "https://react-portfolio-three-brown.vercel.app/"
@@ -63,7 +63,9 @@ function Projects() {
                             <p>{project.description}</p>
 
                             <div className="tech">
-                                {project.tech}
+                                {project.tech.map((item)=>(
+                                    <span key={item}>{item}</span>
+                                    ))}
                             </div>
 
                             <div className="project-buttons">
