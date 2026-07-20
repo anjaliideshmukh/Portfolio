@@ -2,10 +2,21 @@ import "./Project.css";
 import bakery from "../../assets/images/bakery.png";
 import calculator from "../../assets/images/calculator.png";
 import portfolio from "../../assets/images/portfolio.png"
+import school from "../../assets/images/school.jpg"
 
 function Projects() {
 
     const projects = [
+        {
+            id: 1,
+            title: "Portfolio",
+            description: "Personal portfolio website showcasing my projects, skills, and experience with a responsive modern UI.",
+            tech: ["React", "Vite", "Vercel"],
+            image: portfolio,
+            github: "https://github.com/anjaliideshmukh/Portfolio",
+            live: "https://react-portfolio-three-brown.vercel.app/"
+            
+        },
         {
             id: 3,
             title: "Sweet Treats Bakery",
@@ -25,15 +36,15 @@ function Projects() {
             
         },
         {
-            id: 1,
-            title: "Portfolio",
-            description: "Personal portfolio website showcasing my projects, skills, and experience with a responsive modern UI.",
-            tech: ["React", "Vite", "Vercel"],
-            image: portfolio,
-            github: "https://github.com/anjaliideshmukh/Portfolio",
-            live: "https://react-portfolio-three-brown.vercel.app/"
+            id: 4,
+            title: "School Management System",
+            description: "Collaborated on the development of a School Management System using Python, Flask, MySQL, HTML, CSS, and JavaScript.",
+            tech: ["Flask", "MySQL", "Python"],
+            image: school,
+            github: "https://github.com/anjaliideshmukh/School-management-system",
             
         }
+        
     ];
 
     return (
