@@ -1,7 +1,7 @@
 import "./Project.css";
 import bakery from "../../assets/images/bakery.png";
 import calculator from "../../assets/images/calculator.png";
-
+import portfolio from "../../assets/images/portfolio.png"
 
 function Projects() {
 
@@ -23,6 +23,16 @@ function Projects() {
             image: calculator,
             github: "https://github.com/anjaliideshmukh/Basic-calculator",
             live: "#"
+        },
+        {
+            id: 3,
+            title: "Portfolio",
+            description: "Responsive calculator with keyboard support.",
+            tech: "React, Vite, Vercel",
+            image: portfolio,
+            github: "https://github.com/anjaliideshmukh/Portfolio",
+            live: "https://react-portfolio-three-brown.vercel.app/"
+            
         }
     ];
 

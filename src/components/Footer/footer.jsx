@@ -5,11 +5,13 @@ function Footer(){
         <footer className="footer">
 
     <p>
-        © 2026 Anjali Deshmukh
+        Designed & Developed by
+    <br/>
+        Anjali Deshmukh
     </p>
 
     <p>
-        Built with ❤️ using React
+        © 2026
     </p>
 
 </footer>

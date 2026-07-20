@@ -9,3 +9,8 @@
 .footer p{
     margin:8px 0;
 }
+@media(max-width:768px){
+    .footer{
+        margin-left: 0;
+    }
+}
