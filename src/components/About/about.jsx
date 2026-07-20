@@ -21,11 +21,10 @@ function About() {
 
             <p className="about-description">
 
-                I'm a Computer Science undergraduate passionate about
-                creating responsive and user-friendly web applications.
-                I enjoy learning modern frontend technologies,
-                solving problems through code, and continuously improving
-                my development skills.
+                I'm a Computer Science undergraduate passionate about building clean, 
+                responsive, and user-friendly web applications. I enjoy turning ideas into 
+                interactive experiences using React and JavaScript while continuously 
+                improving my problem-solving skills through DSA and modern web development.
 
             </p>
 
