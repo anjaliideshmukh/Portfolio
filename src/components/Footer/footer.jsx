@@ -5,13 +5,11 @@ function Footer(){
         <footer className="footer">
 
     <p>
-        Designed & Developed by
-    <br/>
-        Anjali Deshmukh
+        Designed & Developed by Anjali Deshmukh
     </p>
 
     <p>
-        © 2026
+        © 2026 All Rights Reserved.
     </p>
 
 </footer>
