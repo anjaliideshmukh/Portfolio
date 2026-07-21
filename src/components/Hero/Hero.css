@@ -271,7 +271,11 @@
     .hero-stats{
         justify-content: center;
     }
+    .profile-image{
+        max-width:220px;
+    }
 }
+
 @media (max-width: 576px){
     .hero-stats{
         max-width: 220px;
