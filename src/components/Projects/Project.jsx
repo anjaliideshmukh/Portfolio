@@ -3,6 +3,7 @@ import bakery from "../../assets/images/bakery.png";
 import calculator from "../../assets/images/calculator.png";
 import portfolio from "../../assets/images/portfolio.png"
 import school from "../../assets/images/school.jpg"
+import url from "../../assets/images/url.jpg"
 
 function Projects() {
 
@@ -43,7 +44,25 @@ function Projects() {
             image: school,
             github: "https://github.com/anjaliideshmukh/School-management-system",
             
+        },
+        {
+            id: 5,
+            title: "URL Phishing Detector",
+            description: "Built a Flask-based web application that uses a trained machine learning model to classify URLs as phishing or legitimate. Integrated a responsive frontend with backend prediction logic to provide real-time URL analysis.",
+            tech: ["Python"," Flask","Scikit-learn ","Pandas"," NumPy ","HTML "," CSS "," JavaScript "," Git "," GitHub"],
+            image: url,
+            github: "https://github.com/anjaliideshmukh/URL-Phishing"
+        },
+        {
+            id: 6,
+            title: "A flask-mysql application for industrial production tracking.",
+            description: "Built a Flask-based web application ",
+            tech: ["Python", "Flask", "CSS", "HTML"],
+            image: url,
+            github: "https://github.com/anjaliideshmukh/URL-Phishing"
+            
         }
+        
         
     ];
 
@@ -80,27 +99,26 @@ function Projects() {
                             </div>
 
                             <div className="project-buttons">
-
-                                <a
+                                {project.github && (
+                                    <a
                                     href={project.github}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="btn github-btn"
-                                >
-                                    GitHub
-                                </a>
-
-                                <a
+                                    className="btn github-btn">
+                                        GitHub
+                                    </a>
+                                )}
+                                {project.live && (
+                                    <a
                                     href={project.live}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="btn demo-btn"
-                                >
-                                    Live Demo
-                                </a>
-
+                                    >
+                                        Live Demo
+                                    </a>
+                                )}
                             </div>
-
                         </div>
 
                     </div>
