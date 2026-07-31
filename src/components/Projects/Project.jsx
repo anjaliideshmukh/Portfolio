@@ -60,9 +60,7 @@ function Projects() {
             title: "A flask-mysql application for industrial production tracking.",
             description: "Built a Flask-based web application ",
             tech: ["Python", "Flask", "CSS", "HTML"],
-            image: bsp,
-            github: "https://github.com/anjaliideshmukh/URL-Phishing"
-            
+            image: bsp
         },
         {
             id: 7,
@@ -70,8 +68,8 @@ function Projects() {
             description: "Built a responsive AI career guidance web application using React.js and Botpress Cloud.",
             tech: ["Botpress Cloud", "React", "CSS", "HTML5","Vite", "Github"],
             image: careercompass,
-            github: "https://github.com/anjaliideshmukh/URL-Phishing"
-            
+            github: "https://github.com/anjaliideshmukh/CareerCompass-AI",
+            live: "https://anjali-sweet-treats-bakery.netlify.app/"
         }
         
         
