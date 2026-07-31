@@ -1,9 +1,11 @@
 import "./Project.css";
 import bakery from "../../assets/images/bakery.png";
 import calculator from "../../assets/images/calculator.png";
-import portfolio from "../../assets/images/portfolio.png"
-import school from "../../assets/images/school.jpg"
-import url from "../../assets/images/url.jpg"
+import portfolio from "../../assets/images/portfolio.png";
+import school from "../../assets/images/school.jpg";
+import url from "../../assets/images/url.jpg";
+import bsp from "../../assets/images/bsp.jpg";
+import careercompass from "../../assets/images/careercompass.png";
 
 function Projects() {
 
@@ -12,7 +14,7 @@ function Projects() {
             id: 1,
             title: "Portfolio",
             description: "Personal portfolio website showcasing my projects, skills, and experience with a responsive modern UI.",
-            tech: ["React", "Vite", "Vercel"],
+            tech: ["React", "Vite", "Vercel","CSS"],
             image: portfolio,
             github: "https://github.com/anjaliideshmukh/Portfolio",
             live: "https://react-portfolio-three-brown.vercel.app/"
@@ -58,7 +60,16 @@ function Projects() {
             title: "A flask-mysql application for industrial production tracking.",
             description: "Built a Flask-based web application ",
             tech: ["Python", "Flask", "CSS", "HTML"],
-            image: url,
+            image: bsp,
+            github: "https://github.com/anjaliideshmukh/URL-Phishing"
+            
+        },
+        {
+            id: 7,
+            title: "CareerCompassAI_AI-Powered Career Guidance Assistant",
+            description: "Built a responsive AI career guidance web application using React.js and Botpress Cloud.",
+            tech: ["Botpress Cloud", "React", "CSS", "HTML5","Vite", "Github"],
+            image: careercompass,
             github: "https://github.com/anjaliideshmukh/URL-Phishing"
             
         }
