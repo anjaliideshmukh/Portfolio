@@ -10,77 +10,49 @@ function Skills() {
 
             <div className="skills-container">
                 <div className="skill-card">
-                    <h3>🌐 HTML5</h3>
+                    <h3> Front-end</h3>
                 <div className="skill-tags">
-                    <span>Semantic HTML</span>
-                    <span>Forms</span>
-                    <span>Responsive Design</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>React</span> 
                 </div>
             </div>
 
                 <div className="skill-card">
-                    <h3>🎨 CSS3</h3>
+                    <h3>Programming</h3>
                     <div className="skill-tags">
-                    <span>Flexbox</span>
-                    <span>CSS Grid</span>
-                    <span>Animations</span>
+                    <span>C++</span>
+                    <span>DSA</span>
+                    <span>Python</span>
                     </div>
                 </div>
 
                 <div className="skill-card">
-                    <h3>⚡ JavaScript</h3>
+                    <h3>Tools</h3>
                     <div className="skill-tags">
-                    <span>ES6</span>
-                    <span>DOM Manipulation</span>
-                    <span>Functions</span>
-                    </div>
-                </div>
-
-                <div className="skill-card">
-                    <h3>⚛ React</h3>
-                    <div className="skill-tags">
-                    <span>Components</span>
-                    <span>JSX</span>
-                    <span>Hooks</span>
-                </div>
-                </div>
-
-                <div className="skill-card">
-                    <h3>🔧 Git & GitHub</h3>
-                    <div className="skill-tags">
-                    <span>Version Control</span>
-                    <span>Git Commands</span>
+                    <span>Git</span>
                     <span>GitHub</span>
-                </div>
-                </div>
-
-                <div className="skill-card">
-                    <h3>💻 C++</h3>
-                    <div className="skill-tags">
-                    <span>OOP</span>
-                    <span>STL</span>
-                    <span>Memory Management</span>
                     </div>
                 </div>
 
                 <div className="skill-card">
-                    <h3>🗄️ SQL</h3>
+                    <h3>Database</h3>
                     <div className="skill-tags">
-                    <span>Queries</span>
-                    <span>Joins</span>
-                    <span>Database Basics</span>
-                    </div>
+                    <span>SQL</span>
+                    <span>MySQL</span>
+                    <span>MongoDB</span>
+                </div>
                 </div>
 
                 <div className="skill-card">
-                    <h3>🧩 DSA</h3>
-                    <div className="skill-tags">
-                    <span>Arrays</span>
-                    <span>Sliding Window</span>
-                    <span>Two Pointers</span>
-                    </div>
+                    <h3>🛠️ Tools & Deployment</h3>
+                        <div className="skill-tags">
+                            <span>Vite</span>
+                            <span>Vercel</span>
+                            <span>Netlify</span>
+                        </div>
                 </div>
-
             </div>
 
         </section>

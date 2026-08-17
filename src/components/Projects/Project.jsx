@@ -69,7 +69,7 @@ function Projects() {
             tech: ["Botpress Cloud", "React", "CSS", "HTML5","Vite", "Github"],
             image: careercompass,
             github: "https://github.com/anjaliideshmukh/CareerCompass-AI",
-            live: "https://anjali-sweet-treats-bakery.netlify.app/"
+            live: "https://career-compass-ai-puce.vercel.app"
         }
         
         
